@@ -1,0 +1,8 @@
+torch=1.10.0
+pycocotools.coco
+detectron2
+skimage
+matplotlib
+pathlib
+PIL
+cv2

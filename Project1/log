@@ -1,0 +1,55 @@
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:07.921.680 [mindspore/dataset/engine/datasets.py:3463] WARN: global shuffle is not used.
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:08.940.621 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:08.944.927 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:08.959.967 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:08.964.993 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:08.980.586 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:08.987.879 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.353.6 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.167.22 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.345.86 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.481.64 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.486.10 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.504.49 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.508.64 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.526.61 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.476.254 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.757.416 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.826.814 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] ME(2704:281473058251152,MainProcess):2021-11-26-13:28:09.829.963 [mindspore/common/tensor.py:1295] WARN_DEPRECATED: The usage of to_tensor is deprecated. Please use init_data
+[WARNING] DEVICE(2704,fffea0dc51e0,python):2021-11-26-13:29:33.891.565 [mindspore/ccsrc/runtime/device/ascend/kernel_select_ascend.cc:284] TagRaiseReduce] node:[TopK]reduce precision from int64 to int32
+[WARNING] DEVICE(2704,fffea0dc51e0,python):2021-11-26-13:29:33.891.652 [mindspore/ccsrc/runtime/device/ascend/kernel_select_ascend.cc:284] TagRaiseReduce] node:[TopK]reduce precision from int64 to int32
+[WARNING] DEVICE(2704,fffea0dc51e0,python):2021-11-26-13:29:33.893.356 [mindspore/ccsrc/runtime/device/ascend/kernel_select_ascend.cc:284] TagRaiseReduce] node:[TopK]reduce precision from int64 to int32
+[WARNING] DEVICE(2704,fffea0dc51e0,python):2021-11-26-13:29:33.893.383 [mindspore/ccsrc/runtime/device/ascend/kernel_select_ascend.cc:284] TagRaiseReduce] node:[TopK]reduce precision from int64 to int32
+[WARNING] SESSION(2704,fffea0dc51e0,python):2021-11-26-13:29:48.108.790 [mindspore/ccsrc/backend/session/ascend_session.cc:1377] SelectKernel] There are 53 node/nodes used raise precision to selected the kernel!
+[WARNING] SESSION(2704,fffea0dc51e0,python):2021-11-26-13:29:48.108.842 [mindspore/ccsrc/backend/session/ascend_session.cc:1381] SelectKernel] There are 22 node/nodes used reduce precision to selected the kernel!
+CHECKING MINDRECORD FILES ...
+CHECKING MINDRECORD FILES DONE!
+Start Eval!
+len of dataset:  50
+loading annotations into memory...
+Done (t=0.02s)
+creating index...
+index created!
+Loading and preparing results...
+DONE (t=0.02s)
+creating index...
+index created!
+Running per image evaluation...
+Evaluate annotation type *bbox*
+DONE (t=1.23s).
+Accumulating evaluation results...
+DONE (t=0.69s).
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.440
+ Average Precision  (AP) @[ IoU=0.50      | area=   all | maxDets=100 ] = 0.648
+ Average Precision  (AP) @[ IoU=0.75      | area=   all | maxDets=100 ] = 0.489
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.276
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.492
+ Average Precision  (AP) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.555
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=  1 ] = 0.375
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets= 10 ] = 0.545
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=   all | maxDets=100 ] = 0.569
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= small | maxDets=100 ] = 0.379
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area=medium | maxDets=100 ] = 0.594
+ Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.683
+
